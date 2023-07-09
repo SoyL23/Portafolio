@@ -42,10 +42,9 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
 .tudo {
-    
-    justify-content: flex-start;
-    padding-left: 85px;
-    padding-right: 85px;   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
        
   }
 section.menu{
@@ -54,6 +53,8 @@ section.menu{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 45px;
+    padding-left: 85px;
+    padding-right: 85px;
     
     
 }
@@ -62,11 +63,13 @@ section.menu{
 
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center; 
     
 
 }
-
+.menu__title{
+    margin-left: 10px;
+}
 ul.menu__list{
     display: flex;
     
@@ -82,7 +85,8 @@ margin: 10px;
 
 section.title{
 
-
+    padding-left: 85px;
+    padding-right: 85px;
 
 }
 .title__div{
@@ -94,11 +98,16 @@ section.title{
 .title__profile{
     
     width: 35%;
-    padding: 2px;
+    padding: 3px;
 }
 /*Sección About*/
 .title__container{
     color: #464646;
+}
+.about__container{
+    
+    padding-left: 85px;
+    padding-right: 85px;
 }
 
 .title__bio{
@@ -111,10 +120,33 @@ section.title{
 font-size: 1.2rem;
 
 }
-section.about{
 
+ul.title__network{
+    
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px;
+      
 }
 
+.title__network__item a{
+    color: #464646;
+    margin-right: 30px;
+}
+section.about{
+    color: #464646;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 300px;
+    background: #eaf2fd;
+}
+.about__title{
+    font-size: 2.0rem;
+}
+.about__paragraph{
+    font-size: 0.95rem;
+}
 /*Sección Hobbies*/
 
 section.hobbies{
