@@ -216,7 +216,57 @@ section.academic h2{
 /* experiencia*/
 
 section.experience{
+    display: flex;
+    flex-direction:column ;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.experiencie__box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
 
+.experience__section__title{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+.experience__info{
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.experience__repo a button{
+    border: 1px solid #2a7ae4;
+    padding: 15px 32px; 
+    text-decoration: none;
+    color:#2a7ae4 ;
+    
+}
+
+.experience__demo
+{
+    padding-left:10px ;
+}
+.experience__demo a button{
+    border: 1px solid #2a7ae4;
+    padding: 15px 32px; 
+    text-decoration: none;
+    background-color: #2a7ae4;
+    color: white;   
+}
+
+.experiencie__box__reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:space-between;
 }
 
 /*Contacto*/
