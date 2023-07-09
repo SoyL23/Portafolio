@@ -44,15 +44,16 @@ https://en.bem.info/methodology/quick-start/*/
 .tudo {
     
     justify-content: flex-start;
-    padding-left: 100px;
-    padding-right: 100px;   
+    padding-left: 85px;
+    padding-right: 85px;   
        
   }
 section.menu{
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 45px;
     
     
 }
@@ -81,15 +82,35 @@ margin: 10px;
 
 section.title{
 
-    display: flex;
-    
+
 
 }
 .title__div{
-    justify-content:center;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.title__profile{
+    
+    width: 35%;
+    padding: 2px;
 }
 /*Sección About*/
+.title__container{
+    color: #464646;
+}
 
+.title__bio{
+     font-size: 2.9rem;
+     
+
+}
+
+.title__subsection{
+font-size: 1.2rem;
+
+}
 section.about{
 
 }
