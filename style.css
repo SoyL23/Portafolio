@@ -45,8 +45,9 @@ https://en.bem.info/methodology/quick-start/*/
     display: flex;
     justify-content: center;
     flex-direction: column;
-       
-  }
+    color: #464646;       
+}
+
 section.menu{
 
     display: flex;
@@ -54,113 +55,100 @@ section.menu{
     justify-content: space-between;
     margin-bottom: 45px;
     padding-left: 85px;
-    padding-right: 85px;
-    
-    
+    padding-right: 85px;  
 }
 
 .menu__header{
-
   display: flex;
   align-items: center;
   justify-content: center; 
-    
-
 }
+
 .menu__title{
     margin-left: 10px;
 }
+
 ul.menu__list{
-    display: flex;
-    
-    
+    display: flex;  
 }
 
 .menu__list__item{
 margin: 10px;
-
 }
 
 /*Sección Title*/
 
 section.title{
-
     padding-left: 85px;
     padding-right: 85px;
-
 }
-.title__div{
 
+.title__div{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
 }
+
 .title__profile{
-    
     width: 35%;
     padding: 3px;
 }
 /*Sección About*/
 .title__container{
-    color: #464646;
+
 }
+
 .about__container{
-    
     padding-left: 85px;
     padding-right: 85px;
 }
 
 .title__bio{
      font-size: 2.9rem;
-     
-
 }
 
 .title__subsection{
 font-size: 1.2rem;
-
 }
 
 ul.title__network{
-    
     display: flex;
     justify-content: flex-start;
-    padding: 0px;
-      
+    padding: 0px;   
 }
 
 .title__network__item a{
-    color: #464646;
     margin-right: 30px;
-}
-section.about{
     color: #464646;
+}
+
+section.about{
     display: flex;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-right: 300px;
+    padding-right: 400px;
     background: #eaf2fd;
 }
+
 .about__title{
     font-size: 2.0rem;
 }
+
 .about__paragraph{
-    font-size: 0.95rem;
+    font-size: 1.2rem;
+    text-align: justify;
 }
+
 /*Sección Hobbies*/
 section.hobbies, section.skills{
     padding-left: 85px;
     padding-right: 85px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
-
 
 section.hobbies h3, section.skills h3{
     text-align: center;
-    font-size: 2rem;
-    color: #464646;
-    
-    
+    font-size: 2rem;    
 }
 
 .hobbies__line, .skills__line{
@@ -177,8 +165,6 @@ section.hobbies h3, section.skills h3{
     width: 180px;
     border: 1px solid #fff;
     background-color: #FFF;
-    
-
 }
 
 .hobbies__name, .skills__name{
@@ -196,7 +182,13 @@ section.hobbies h3, section.skills h3{
 section.academic{
     display: flex;
     flex-direction: column;
+    background: #eaf2fd;
+    padding-bottom: 30px;
+}
 
+section.academic h2{
+    text-align: center;
+    padding-top: 30px;
 }
 
 .academic__courses{
@@ -205,17 +197,20 @@ section.academic{
     justify-content: space-between;
     padding-left: 85px;
     padding-right: 85px;
-
-
 }
+
 .academic__courses__item__img{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     border: 1px solid #fff;
     background-color: #FFF;
+}
+
+.academic__courses__item__title{
+    font-size: 1rem;
 }
 
 /* experiencia*/
