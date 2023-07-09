@@ -21,6 +21,7 @@ body {
 }
 ol, ul,li {
     list-style: none;
+
 }
 a{
     text-decoration: none;
@@ -40,8 +41,39 @@ Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
-
+.tudo {
+    
+    justify-content: flex-start;
+    padding-left: 100px;
+    padding-right: 100px;   
+       
+  }
 section.menu{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.menu__header{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+    
+
+}
+
+ul.menu__list{
+    display: flex;
+    
+    
+}
+
+.menu__list__item{
+margin: 10px;
 
 }
 
@@ -49,8 +81,13 @@ section.menu{
 
 section.title{
 
-}
+    display: flex;
+    
 
+}
+.title__div{
+    justify-content:center;
+}
 /*Sección About*/
 
 section.about{
