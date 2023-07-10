@@ -274,12 +274,6 @@ section.experience{
     color: white;   
 }
 
-.experience__description{
-    display: flex;
-    
-}
-
-
 
 /*Contacto*/
 
@@ -287,6 +281,31 @@ section.formcontato{
 
 }
 
+.formcontato__contacto{
+display: flex;
+flex-direction: row;
+}
+
+.formcontato__text{
+    flex-direction: column;
+    padding-left:20px ;
+    margin-left: 20px;
+}
+.formcontato__botao{
+    border: 1px solid #2a7ae4;
+    padding: 15px 20px; 
+    text-decoration: none;
+    background-color: #2a7ae4;
+    color: white;  
+}
+
+.formcontato__input, .formcontato__textarea{
+
+ width: 90%;
+ margin-top:25px ;
+ margin-bottom: 25px;
+ 
+}
 /*footeer*/
 
 section.footer{
