@@ -165,6 +165,7 @@ section.hobbies h3, section.skills h3{
     width: 180px;
     border: 1px solid #fff;
     background-color: #FFF;
+    box-shadow: 0px 10px 10px -5px rgb(0 0 0 / 30%);
 }
 
 .hobbies__name, .skills__name{
@@ -218,8 +219,8 @@ section.academic h2{
 section.experience{
     display: flex;
     flex-direction:column ;
-    padding-left: 85px;
-    padding-right: 85px;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 15px;
     padding-bottom: 15px;
     
@@ -259,13 +260,19 @@ section.experience{
     padding: 15px 32px; 
     text-decoration: none;
     color:#2a7ae4 ;
-    
 }
 
-.experience__demo
-{
-    padding-left:10px ;
+.experience__repo a button:hover{
+    border: 1px solid #2a7ae4;
+    padding: 15px 32px; 
+    text-decoration: none;
+    background-color: #2a7ae4;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .4s;
 }
+
 .experience__demo a button{
     border: 1px solid #2a7ae4;
     padding: 15px 32px; 
@@ -274,11 +281,32 @@ section.experience{
     color: white;   
 }
 
+.experience__demo a button:hover
+{
+    border: 1px solid #2a7ae4;
+    padding: 15px 32px; 
+    text-decoration: none;
+    color:#2a7ae4 ;
+    background-color: var(--cor-de-fundo);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.experience__demo
+{
+    padding-left:10px ;
+}
+
+
 
 /*Contacto*/
 
 section.formcontato{
-
+    background-color: #eaf2fd;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 80px;
 }
 
 .formcontato__contacto{
@@ -289,7 +317,7 @@ flex-direction: row;
 .formcontato__text{
     flex-direction: column;
     padding-left:20px ;
-    margin-left: 20px;
+    padding-right:  20px;
 }
 .formcontato__botao{
     border: 1px solid #2a7ae4;
@@ -302,14 +330,22 @@ flex-direction: row;
 .formcontato__input, .formcontato__textarea{
 
  width: 90%;
+ padding: 15px;
  margin-top:25px ;
  margin-bottom: 25px;
- 
+ border: none;
+ border-bottom: 1px solid #2a7ae4;
 }
 /*footeer*/
 
 section.footer{
-   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer__rodape{
+    text-align: center;
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?
